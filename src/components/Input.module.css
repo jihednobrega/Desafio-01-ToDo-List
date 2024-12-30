@@ -1,0 +1,49 @@
+.inputWrapper {
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  margin-top: -27px;
+  gap: 0.5rem;
+}
+
+.inputWrapper input {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid var(--gray-700);
+  background: var(--gray-500);
+  padding: 0 1rem;
+  font-size: 1rem;
+
+  color: var(--gray-100);
+}
+
+.inputWrapper input:focus {
+  border: 1px solid var(--purple);
+}
+
+.inputWrapper button {
+  width: 90px;
+  padding: 0 1rem;
+  color: var(--gray-100);
+  background: var(--blue-dark);
+  border: 0;
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+  gap: 0.5rem;
+}
+
+.inputWrapper button:hover,
+.inputWrapper button:focus {
+  background: var(--blue);
+}
+
+.inputWrapper button svg {
+  margin-top: 1px;
+}
